@@ -4,34 +4,24 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore Mac Finder preference file
-.DS_Store
-
 # Ignore bundler config.
-fantasy-rpg-backend/.bundle
-
-# Ignore the default SQLite database.
-fantasy-rpg-backend/db/*.sqlite3
-fantasy-rpg-backend/db/*.sqlite3-journal
-fantasy-rpg-backend/db/*.sqlite3-*
+/.bundle
 
 # Ignore all logfiles and tempfiles.
-fantasy-rpg-backend/log/*
-fantasy-rpg-backend/tmp/*
-!fantasy-rpg-backend/log/.keep
-!fantasy-rpg-backend/tmp/.keep
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-fantasy-rpg-backend/tmp/pids/*
-!fantasy-rpg-backend/tmp/pids/
-!fantasy-rpg-backend/tmp/pids/.keep
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-fantasy-rpg-backend/storage/*
-!fantasy-rpg-backend/storage/.keep
-fantasy-rpg-backend/.byebug_history
+/storage/*
+!/storage/.keep
+.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-fantasy-rpg-backend/config/master.key
-fantasy-rpg-backend/log/development.log
-fantasy-rpg-backend/db/development.sqlite3
+/config/master.key
