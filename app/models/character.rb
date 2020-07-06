@@ -1,6 +1,7 @@
 class Character < ApplicationRecord
     # Database Relationships
     has_many(:abilities)
+    has_many(:game_saves)
 
     # Database Validatons
     validates(:name, presence: true)

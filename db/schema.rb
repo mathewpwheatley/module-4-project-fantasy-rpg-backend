@@ -20,8 +20,8 @@ ActiveRecord::Schema.define(version: 2020_07_06_173602) do
     t.integer "healing_effect", default: 0, null: false
     t.integer "damage_effect", default: 0, null: false
     t.integer "cooldown", default: 0, null: false
-    t.bigint "user_id", null: false
-    t.index ["user_id"], name: "index_abilities_on_user_id"
+    t.bigint "character_id", null: false
+    t.index ["character_id"], name: "index_abilities_on_character_id"
   end
 
   create_table "characters", force: :cascade do |t|
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 2020_07_06_173602) do
     t.string "last_name"
   end
 
-  add_foreign_key "abilities", "users"
-  add_foreign_key "game_saves", "characters"
-  add_foreign_key "game_saves", "users"
+  add_foreign_key "abilities", "characters", on_delete: :cascade
+  add_foreign_key "game_saves", "characters", on_delete: :cascade
+  add_foreign_key "game_saves", "users", on_delete: :cascade
 end

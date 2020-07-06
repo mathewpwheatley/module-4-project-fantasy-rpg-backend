@@ -5,7 +5,7 @@ class CreateAbilities < ActiveRecord::Migration[6.0]
       t.integer :healing_effect, null: false, default: 0
       t.integer :damage_effect, null: false, default: 0
       t.integer :cooldown, null: false, default: 0
-      t.belongs_to :user, null: false, foreign_key: true
+      t.belongs_to :character, null: false, foreign_key: {on_delete: :cascade}
     end
   end
 end
