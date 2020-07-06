@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_06_173602) do
+ActiveRecord::Schema.define(version: 2020_07_06_232039) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,6 +44,8 @@ ActiveRecord::Schema.define(version: 2020_07_06_173602) do
     t.integer "healing_effect", default: 0, null: false
     t.integer "damage_effect", default: 0, null: false
     t.integer "cooldown_effect", default: 0, null: false
+    t.bigint "game_save_id", null: false
+    t.index ["game_save_id"], name: "index_modifiers_on_game_save_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -55,4 +57,5 @@ ActiveRecord::Schema.define(version: 2020_07_06_173602) do
   add_foreign_key "abilities", "characters", on_delete: :cascade
   add_foreign_key "game_saves", "characters", on_delete: :cascade
   add_foreign_key "game_saves", "users", on_delete: :cascade
+  add_foreign_key "modifiers", "game_saves", column: "game_save_id", on_delete: :cascade
 end

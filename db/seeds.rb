@@ -54,9 +54,10 @@ end
 # Modifier seeds
 modifier_seeds.times do
     Modifier.create(
-        health_effect: rand(10..25),
-        healing_effect: rand(5..15),
-        damage_effect: rand(5..20),
-        cooldown_effect: rand(1..3)
+        health_effect: rand(0..25),
+        healing_effect: rand(0..15),
+        damage_effect: rand(0..20),
+        cooldown_effect: rand(0..3),
+        game_save_id: GameSave.all.sample.id
     )
 end

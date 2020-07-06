@@ -1,6 +1,6 @@
 class User < ApplicationRecord
     # Database Relationships
-    has_many(:game_saves)
+    has_many(:game_saves, class_name: "GameSave")
 
     # Database Validatons
     validates(:email, presence: true)
