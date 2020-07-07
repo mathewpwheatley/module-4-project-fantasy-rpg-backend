@@ -1,4 +1,4 @@
 class AbilitySerializer
   include FastJsonapi::ObjectSerializer
-  attributes(:name, :healing_effect, :damage_effect, :cooldown, :character)
+  attributes(:name, :group, :description, :healing_effect, :damage_effect, :cooldown, :character)
 end
