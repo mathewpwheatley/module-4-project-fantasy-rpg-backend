@@ -1,0 +1,23 @@
+character_name,group,name,description,damage_effect,healing_effect,cooldown
+Colton Kaiser,Special,Bang Energy,fuel his destiny,0,20,5
+Flatiorn Student,Attack 1,Green Checkmark,complete a learn lab,10,0,0
+Flatiorn Student,Attack 2,Ask Question,better understand a coding concept,15,0,3
+Flatiorn Student,Special,Stack Overflow,save time by leverage resources for frequently encountered issues,30,0,6
+Joshua Mclean,Attack 1,Triple Step,confuse the opponent with fancy footwork,10,0,1
+Joshua Mclean,Attack 2,Moonwalk,dance on the floor in the round like MJ,10,0,1
+Joshua Mclean,Special,Nae Nae,"get the club goin' up, on a Tuesday",25,5,4
+Steven Parsons,Special,Zoom Background,impersonate his opponent,35,0,5
+Ix Procopios,Attack 1,770718,"necessitate a minor incovience, manual zoom password",15,0,0
+Ix Procopios,Special,turn camera off,take a break and heal,0,20,8
+Hal Dunn,Attack 2,Ignore,claim they didnt notice your attack but they actually just ignored it,15,0,1
+Colton Kaiser,Attack 1,Summon Athletes,fight for colton,20,0,5
+Colton Kaiser,Attack 2,Gamer Chair,intimidate his opponent with this comfort and focus,10,0,1
+Justin Langlinais,Attack 1,Breadcutter Choke,take down his opponent with his favorite Jiu Jitsu move,15,0,2
+Justin Langlinais,Special,Green Smoothie,nourishes his life-force ,0,20,5
+Hal Dunn,Special,Discussion Question,distract opponent for 3 seconds,0,0,6
+Justin Langlinais,Attack 2,White Board,crush his oponent with the massive board,20,0,5
+John Rusch,Special,Barista Epresso,fuel himself and burn his openent,10,5,3
+John Rusch,Attack 2,Summon Mater,fight along-side his favorite cars character ,25,0,5
+John Rusch,Attack 1,Olive Garden Breadstick,batter his opponent with the stale bread,10,0,2
+Steven Parsons,Attack 2,V8,heal,0,20,5
+Hal Dunn,Attack 1,Remove host powers,weaken opponent dealing damage,15,0,5

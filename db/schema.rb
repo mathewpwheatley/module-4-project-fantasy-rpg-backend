@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
 
   create_table "abilities", force: :cascade do |t|
     t.string "name", null: false
+    t.string "group", null: false
+    t.string "description", null: false
     t.integer "healing_effect", default: 0, null: false
     t.integer "damage_effect", default: 0, null: false
     t.integer "cooldown", default: 0, null: false
@@ -26,6 +28,7 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name", null: false
+    t.string "group", null: false
     t.string "catchphrase", null: false
     t.string "image_url", null: false
     t.integer "health", default: 100, null: false
