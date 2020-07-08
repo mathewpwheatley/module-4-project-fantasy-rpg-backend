@@ -8,6 +8,16 @@ class UsersController < ApplicationController
     def show
         user = User.find(params[:id])
         render json: UserSerializer.new(user)
+
+    end
+
+    def login
+        user = User.find_by_email(user_params[:email])
+        if user
+            render json: UserSerializer.new(user)
+        else
+            render json: ["Account not found"]
+        end
     end
 
     def create

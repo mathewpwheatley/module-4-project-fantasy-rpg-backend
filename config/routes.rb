@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   resources :abilities, only: [:index, :show]
   resources :game_saves, except: [:new, :edit]
   resources :modifiers, except: [:new, :edit]
+
+  post '/login', to: 'users#login'
+
 end
