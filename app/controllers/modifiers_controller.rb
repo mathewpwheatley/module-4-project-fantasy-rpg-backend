@@ -15,7 +15,7 @@ class ModifiersController < ApplicationController
         if modifier.valid?
             render json: ModifierSerializer.new(modifier)
         else
-            render json: modifier.errors.full_messages
+            render json: {errors: modifier.errors.full_messages}
         end
     end
 
@@ -25,14 +25,18 @@ class ModifiersController < ApplicationController
         if modifier.valid?
             render json: ModifierSerializer.new(modifier)
         else
-            render json: modifier.errors.full_messages
+            render json: {errors: modifier.errors.full_messages}
         end
     end
 
     def destroy
         modifier = Modifier.find(params[:id])
-        modifier.destroy
-        render json: ModifierSerializer.new(modifier)        
+        if modifier
+            modifier.destroy
+            render json: {deleted: ModifierSerializer.new(modifier)}  
+        else
+            render json: {errors: ["Modifier not found"]}
+        end       
     end
 
     private

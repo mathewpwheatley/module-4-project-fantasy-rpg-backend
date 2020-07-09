@@ -15,7 +15,7 @@ class GameSavesController < ApplicationController
         if game_save.valid?
             render json: GameSaveSerializer.new(game_save)
         else
-            render json: game_save.errors.full_messages
+            render json: {errors: game_save.errors.full_messages}
         end
     end
 
@@ -25,14 +25,18 @@ class GameSavesController < ApplicationController
         if game_save.valid?
             render json: GameSaveSerializer.new(game_save)
         else
-            render json: game_save.errors.full_messages
+            render json: {errors: game_save.errors.full_messages}
         end
     end
 
     def destroy
         game_save = GameSave.find(params[:id])
-        game_save.destroy
-        render json: GameSaveSerializer.new(game_save)        
+        if game_save
+            game_save.destroy
+            render json: {deleted: GameSaveSerializer.new(game_save)}
+        else
+            render json: {errors: ["Game save not found"]}
+        end
     end
 
     private

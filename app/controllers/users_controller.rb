@@ -16,7 +16,7 @@ class UsersController < ApplicationController
         if user
             render json: UserSerializer.new(user)
         else
-            render json: ["Account not found"]
+            render json: {errors: ["User not found"]}
         end
     end
 
@@ -25,7 +25,7 @@ class UsersController < ApplicationController
         if user.valid?
             render json: UserSerializer.new(user)
         else
-            render json: user.errors.full_messages
+            render json: {errors: user.errors.full_messages}
         end
     end
 
@@ -35,14 +35,18 @@ class UsersController < ApplicationController
         if user.valid?
             render json: UserSerializer.new(user)
         else
-            render json: user.errors.full_messages
+            render json: {errors: user.errors.full_messages}
         end
     end
 
     def destroy
         user = User.find(params[:id])
-        user.destroy
-        render json: UserSerializer.new(user)        
+        if user
+            user.destroy
+            render json: {deleted: UserSerializer.new(user)}    
+        else
+            render json: {errors: ["User not found"]}
+        end    
     end
 
     private
