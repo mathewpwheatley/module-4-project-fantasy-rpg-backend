@@ -42,7 +42,7 @@ class GameSavesController < ApplicationController
     private
 
     def game_save_params
-        params.require(:game_save).permit(:user_id, :character_id, :opponent_id, :round)
+        params.require(:game_save).permit(:user_id, :character_id, :opponent_id, :current_round)
     end
 
 end
