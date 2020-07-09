@@ -14,4 +14,12 @@ class User < ApplicationRecord
         "#{self.first_name} #{self.last_name}"
     end
 
+    def game_save_character_names
+        self.game_saves.map{|game_save| game_save.character.name}
+    end
+
+    def game_save_character_image_urls
+        self.game_saves.map{|game_save| game_save.character.image_url}
+    end
+
 end
