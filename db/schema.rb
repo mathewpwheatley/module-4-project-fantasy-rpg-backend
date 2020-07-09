@@ -39,6 +39,8 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
     t.bigint "character_id", null: false
     t.bigint "opponent_id", null: false
     t.integer "current_round", default: 0, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
     t.index ["character_id"], name: "index_game_saves_on_character_id"
     t.index ["opponent_id"], name: "index_game_saves_on_opponent_id"
     t.index ["user_id"], name: "index_game_saves_on_user_id"
@@ -57,6 +59,8 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
     t.string "email", null: false
     t.string "first_name"
     t.string "last_name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   add_foreign_key "abilities", "characters", on_delete: :cascade
