@@ -37,8 +37,10 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
   create_table "game_saves", force: :cascade do |t|
     t.bigint "user_id", null: false
     t.bigint "character_id", null: false
+    t.bigint "opponent_id", null: false
     t.integer "current_round", default: 0, null: false
     t.index ["character_id"], name: "index_game_saves_on_character_id"
+    t.index ["opponent_id"], name: "index_game_saves_on_opponent_id"
     t.index ["user_id"], name: "index_game_saves_on_user_id"
   end
 
@@ -58,6 +60,7 @@ ActiveRecord::Schema.define(version: 2020_07_06_232039) do
   end
 
   add_foreign_key "abilities", "characters", on_delete: :cascade
+  add_foreign_key "game_saves", "characters", column: "opponent_id", on_delete: :cascade
   add_foreign_key "game_saves", "characters", on_delete: :cascade
   add_foreign_key "game_saves", "users", on_delete: :cascade
   add_foreign_key "modifiers", "game_saves", column: "game_save_id", on_delete: :cascade
