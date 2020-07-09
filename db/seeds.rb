@@ -55,10 +55,11 @@ end
 
 # Game save seeds
 game_save_seeds.times do
+    playable_characters = Character.all.filter{|character| character.group == "Playable"}
     GameSave.create(
         user_id: User.all.sample.id,
-        character_id: Character.all.sample.id,
-        current_round: rand(0..5)
+        character_id: playable_characters.sample.id,
+        current_round: rand(1..5)
     )
 end
 
