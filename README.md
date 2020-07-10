@@ -1,24 +1,51 @@
-# README
+# Flatiron Fight - Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flatiron Fight is a game made with React that highlights the members of the Flatiron 4/20/2020 cohort and their amusing personalities. A user can select a character inspired by a cohort member, and use custom abilities to fight through the 'Flatiron Mods' in order to reach 'Mod 5' and face off against a Flatiron instructor.
 
-Things you may want to cover:
+[This](https://github.com/sap2411/module-4-project-fantasy-rpg-frontend) is a link to the front-end repository.
 
-* Ruby version
+## Motivation
 
-* System dependencies
+We wanted to create a game that memorialized our cohort and the fun things we learned about eachother along the way.
 
-* Configuration
 
-* Database creation
+## Technology Used
 
-* Database initialization
+- Ruby
+- Rails API
+- Postgres database
 
-* How to run the test suite
+## Features
 
-* Services (job queues, cache servers, search engines, etc.)
+- Create, edit, update, delete from Postgres database:
+  - User
+  - Character
+  - Ability
+  - Game Save
+  - Modifier
+- Perform fetch request for the following data via json:
+  - User
+  - Character (Only GET requests)
+  - Ability (Only GET requests)
+  - Game Save
+  - Modifier
 
-* Deployment instructions
+## Installation
 
-* ...
+Clone or fork the [front-end](https://github.com/sap2411/module-4-project-fantasy-rpg-frontend), and run 'npm i && npm audit fix' then 'yarn start'
+
+Clone or fork the [back-end](https://github.com/mathewpwheatley/module-4-project-fantasy-rpg-backend), run the following commands in order: bundle install, rails db:migrate, rails db:seed, rails s -p 3001.
+
+## Contributing
+
+Contributions are welcome, submit a pull request!
+
+## Authors
+
+* **Steven Parsons** - [GitHub](https://github.com/sap24471)
+* **Mathew Wheatley** - [GitHub](https://github.com/mathewpwheatley)
+* **Gabriel de Sousa** - [GitHub](https://github.com/GabedeSousa)
+
+## License
+
+This project is licensed under the [GNU GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)
