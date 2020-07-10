@@ -1,58 +1,58 @@
 character_name,group,name,description,damage_effect,healing_effect,cooldown
-Colton Kaiser,Attack 1,Summon Athletes,fight for himself,20,0,5
-Colton Kaiser,Attack 2,Gamer Chair,intimidate his opponent with this comfort and focus,10,0,1
-Colton Kaiser,Special,Bang Energy,fuel his destiny,0,20,5
-Flatiorn Student,Attack 1,Green Checkmark,complete a learn lab,10,0,0
-Flatiorn Student,Attack 2,Ask Question,better understand a coding concept,15,0,3
-Flatiorn Student,Special,Stack Overflow,save time by leverage resources for frequently encountered issues,30,0,5
-Hal Dunn,Attack 1,Remove host powers,weaken opponent dealing damage,15,0,5
-Hal Dunn,Attack 2,Ignore,claim they didn't notice your attack but they actually just ignored it,20,0,1
-Hal Dunn,Special,Discussion Question,distract opponent for to heal,0,20,5
-Ix Procopios,Attack 1,770718,"necessitate a minor inconvenience, manual zoom password",15,0,0
-Ix Procopios,Special,Turn Camera Off,take a break and heal,0,20,5
-Ix Procopios,Attack 2,Rose,take advantage of the opponents cat allergy,20,0,2
-John Rusch,Attack 1,Olive Garden Breadstick,batter his opponent with the stale bread,10,0,0
-John Rusch,Attack 2,Summon Mater,fight alongside his favorite cars character ,25,0,2
-John Rusch,Special,Barista Espresso,fuel himself and burn his opponent,10,5,3
-Joshua Mclean,Attack 1,Triple Step,confuse the opponent with fancy footwork,10,0,1
-Joshua Mclean,Attack 2,Moonwalk,dance on the floor in the round like MJ,10,0,1
-Joshua Mclean,Special,Nae Nae,"get the club goin' up, on a Tuesday",25,5,4
-Justin Langlinais,Attack 1,Bread Cutter Choke,take down his opponent with his favorite Jiu Jitsu move,15,0,2
-Justin Langlinais,Attack 2,White Board,crush his opponent with the massive board,20,0,5
-Justin Langlinais,Special,Green Smoothie,nourishes his life-force ,0,20,5
-Steven Parsons,Special,V8,"heal. Wow, it sure doesn't taste like tomato juice",0,20,5
-Steven Parsons,Attack 2,Zoom Background,impersonate his opponent,25,0,3
-Steven Parsons,Attack 1,Brown Note,"attempt to use his audio background to make you soild yourself, its not very effective",5,0,0
-Aidan Muller-Cohn,Attack 2,Algorithm Refactor,"solve that tough algorithm in half the time and half the code, its a critical blow",35,0,6
+Aidan Muller-Cohn,Attack 1,Its Neutral,"Unimpressed by the opponents attack, causes embarrassment damage",10,0,3
 Andy Del Valle,Attack 1,Please & Thank You,kill you with kindness,10,5,1
-Trever Low,Attack 1,Vine Whip,hit you with his ivy plant,10,0,0
-Aidan Muller-Cohn,Attack 1,Its Neutral,"Unimpressed by the opponents attack, causes embarresment damage",10,0,3
-Aidan Muller-Cohn,Special,Pets Dog,health gets replenished by his dogs affection,0,20,6
-Klarissa Smith,Attack 1,Blog Time,notices the opponent didn't do their blog,10,0,2
-Klarissa Smith,Attack 2,Release All Labs,"overloads the opponent with work, dealing high damage",25,0,4
-Klarissa Smith,Special,Become Host,"takes host powers of the zoom calling, unlocking healing ability",0,20,4
-Matthew Sedlacek,Special,Beer Break,cracks open a cold one to replenish health,0,20,8
-Matthew Sedlacek,Attack 2,All Nighter,uses his extreme endurance to deal extra damage,20,0,4
-Matthew Sedlacek,Attack 1,Parks and Reck'em,forces the opponent to watch the sad episodes of Parks and Rec,10,0,2
+Colton Kaiser,Attack 1,Summon Athletes,fight for himself,20,0,5
 David Knudson,Attack 1,Lights Out,hide in the shadows and attack undetected,15,0,3
-David Knudson,Attack 2,Force Heal,replenish his life-force,0,5,5
-David Knudson,Special,Most Embarrising Moment,heal and deal massive damage. whats the story behind this? no one knows...,35,35,12
-John Franti,Attack 1,Driver,bash his opponent with a golf club,15,0,2
-John Franti,Special,Javascript Hack,hack the game and change his and his opponents health,20,20,8
-John Franti,Attack 2,Summon Musician,"summons his musical cousin to play a hit song, healing himself",0,25,6
-Mathew Wheatley,Attack 1,Invite To A BBQ,"trick the opponent into coming to his bbq, and pelt him with hot coals",10,0,3
-Mathew Wheatley,Special,Engineer a Rocket,launch himself out of harms way so he can heal,0,35,6
-Mathew Wheatley,Attack 2,Laser,slice through his opponent like butter,25,0,4
-Soundarya Rajendran,Attack 1,Sympathy,"gain opponents trust, and heal from the kindness",0,20,6
-Soundarya Rajendran,Attack 2,Cryptic Assistance,make the opponent second guess if they are making the right moves,15,0,3
-Soundarya Rajendran,Special,Summon Xbox Gamers,leverage her previous job to aid in the fight and deal massive damage,35,0,7
-Trever Low,Attack 2,Summon Dogs,attack his opponent,15,0,2
-Trever Low,Special,Choreograph,"know your moves, avoid them and heal",0,20,6
-Andy Del Valle,Attack 2,Nursing,heal himself massively,0,30,7
-Andy Del Valle,Special,Bronn Snoring,distracts the opponent leaving them open to attack,25,0,3
+Flatiorn Student,Attack 1,Green Checkmark,complete a learn lab,10,0,0
 Gabriel Fidelis De Sousa,Attack 1,Confused ,asks a confusing question and gets the opponent confused,20,0,2
-Gabriel Fidelis De Sousa,Attack 2,water splash,splash water on the opponents face,25,0,3
-Gabriel Fidelis De Sousa,Special,brazilian coffe,drink a Brazilian espresso and recover health,0,25,7
+Hal Dunn,Attack 1,Remove host powers,weaken opponent dealing damage,15,0,5
+Ix Procopios,Attack 1,770718,"necessitate a minor inconvenience, manual zoom password",15,0,0
+John Franti,Attack 1,Driver,bash his opponent with a golf club,10,0,2
+John Rusch,Attack 1,Olive Garden Breadstick,batter his opponent with the stale bread,10,0,0
+Joshua Mclean,Attack 1,Triple Step,confuse the opponent with fancy footwork,20,0,1
+Justin Langlinais,Attack 1,Bread Cutter Choke,take down his opponent with his favorite Jiu Jitsu move,15,0,2
+Klarissa Smith,Attack 1,Blog Time,notices the opponent didn't do their blog,10,0,2
+Mathew Wheatley,Attack 1,Invite To A BBQ,"trick the opponent into coming to his bbq, and pelt him with hot coals",10,0,3
 Matt Milton,Attack 1,Prof. Drama,"act as a friend of the opponent, and deal a sneak attack",10,0,3
-Matt Milton,Attack 2,Summon Son,deal dubble damage as they tag team the fight,20,0,5
-Matt Milton,Special,Over 9000,deal a massive attack against the opponent while healing himself,29,19,12
+Matthew Sedlacek,Attack 1,Parks and Reck'em,forces the opponent to watch the sad episodes of Parks and Rec,15,0,2
+Soundarya Rajendran,Attack 1,Sympathy,"gain opponents trust, and heal from the kindness",0,20,6
+Steven Parsons,Attack 1,Brown Note,"attempt to use his audio background to make you soil yourself, it's not very effective",10,0,0
+Trever Low,Attack 1,Vine Whip,hit you with his ivy plant,15,0,0
+Aidan Muller-Cohn,Attack 2,Algorithm Refactor,"solve that tough algorithm in half the time and half the code, it's a critical blow",35,0,6
+Andy Del Valle,Attack 2,Nursing,heal himself massively,0,30,7
+Colton Kaiser,Attack 2,Gamer Chair,intimidate his opponent with this comfort and focus,10,0,1
+David Knudson,Attack 2,Force Heal,replenish his life-force,0,5,5
+Flatiorn Student,Attack 2,Ask Question,better understand a coding concept,15,0,3
+Gabriel Fidelis De Sousa,Attack 2,Water Splash,splash water on the opponent's face  ,25,0,3
+Justin Langlinais,Special,Green Smoothie,nourishes his life-force ,0,20,5
+Ix Procopios,Special,Turn Camera Off,take a break and heal,0,25,5
+Hal Dunn,Attack 2,Ignore,claim they didn't notice your attack but they actually just ignored it,20,0,1
+Ix Procopios,Attack 2,Rose,take advantage of the opponents cat allergy,30,0,2
+John Franti,Attack 2,Summon Musician,"summons his musical cousin to play a hit song, healing himself",0,25,6
+John Rusch,Attack 2,Summon Mater,fight alongside his favorite cars character ,25,0,2
+Joshua Mclean,Attack 2,Moonwalk,dance on the floor in the round like MJ,10,0,1
+Justin Langlinais,Attack 2,White Board,crush his opponent with the massive board,20,0,5
+Klarissa Smith,Attack 2,Release All Labs,"overloads the opponent with work, dealing high damage",25,0,4
+Mathew Wheatley,Attack 2,Laser,slice through his opponent like butter,25,0,4
+Matt Milton,Attack 2,Summon Son,deal double damage as they tag team the fight,20,0,5
+Matthew Sedlacek,Attack 2,All Nighter,uses his extreme endurance to deal extra damage,25,0,4
+Soundarya Rajendran,Attack 2,Cryptic Assistance,make the opponent second guess if they are making the right moves,15,0,3
+Steven Parsons,Attack 2,Zoom Background,impersonate his opponent,30,0,3
+Trever Low,Attack 2,Summon Dogs,attack his opponent,25,0,2
+Aidan Muller-Cohn,Special,Pets Dog,health gets replenished by his dogs affection,0,20,6
+Andy Del Valle,Special,Bronn Snoring,distracts the opponent leaving them open to attack,25,0,3
+Colton Kaiser,Special,Bang Energy,fuel his destiny,0,20,5
+David Knudson,Special,Most Embarrassing Moment,heal and deal massive damage. what's the story behind this? no one knows...,35,35,12
+Flatiorn Student,Special,Stack Overflow,save time by leverage resources for frequently encountered issues,30,0,5
+Gabriel Fidelis De Sousa,Special,Brazilian Coffee,drink a Brazilian espresso and recover health,0,25,7
+Hal Dunn,Special,Discussion Question,distract opponent for to heal,15,20,5
+John Franti,Special,Javascript Hack,hack the game and change his and his opponents health,25,10,8
+John Rusch,Special,Barista Espresso,fuel himself and burn his opponent,15,10,3
+Joshua Mclean,Special,Nae Nae,"get the club goin' up, on a Tuesday",25,10,4
+Klarissa Smith,Special,Become Host,"takes host powers of the zoom calling, unlocking healing ability",0,20,4
+Mathew Wheatley,Special,Engineer a Rocket,launch himself out of harms way so he can heal,0,35,6
+Matt Milton,Special,Over 9000,deal a massive attack against the opponent while healing himself,35,10,10
+Matthew Sedlacek,Special,Beer Break,cracks open a cold one to replenish health,0,20,8
+Soundarya Rajendran,Special,Summon Xbox Gamers,leverage her previous job to aid in the fight and deal massive damage,35,0,7
+Steven Parsons,Special,V8,"heal. Wow, it sure doesn't taste like tomato juice",0,20,5
+Trever Low,Special,Choreograph,"know your moves, avoid them and heal",0,20,6
