@@ -18,17 +18,17 @@ We wanted to create a game that memorialized our cohort and the fun things we le
 ## Features
 
 - Create, edit, update, delete from Postgres database:
--- User
--- Character
--- Ability
--- Game Save
--- Modifier
+  - User
+  - Character
+  - Ability
+  - Game Save
+  - Modifier
 - Perform fetch request for the following data via json:
--- User
--- Character (Only GET requests)
--- Ability (Only GET requests)
--- Game Save
--- Modifier
+  - User
+  - Character (Only GET requests)
+  - Ability (Only GET requests)
+  - Game Save
+  - Modifier
 
 ## Installation
 
