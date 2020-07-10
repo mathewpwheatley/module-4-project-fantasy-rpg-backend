@@ -17,13 +17,18 @@ We wanted to create a game that memorialized our cohort and the fun things we le
 
 ## Features
 
-Users Can:
-- Create an account
-- Start a new game
-- Choose a character
-- Automatically have their game saved, and have access to reloading that saved game
-- Fight against other characters for 4 leves, and against a bos at the 5th level, and beat the game
-- Rematch if they lose a battle
+- Create, edit, update, delete from Postgres database:
+-- User
+-- Character
+-- Ability
+-- Game Save
+-- Modifier
+- Perform fetch request for the following data via json:
+-- User
+-- Character (Only GET requests)
+-- Ability (Only GET requests)
+-- Game Save
+-- Modifier
 
 ## Installation
 
