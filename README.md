@@ -32,9 +32,12 @@ We wanted to create a game that memorialized our cohort and the fun things we le
 
 ## Installation
 
-Clone or fork the [front-end](https://github.com/sap2411/module-4-project-fantasy-rpg-frontend), and run 'npm i && npm audit fix' then 'yarn start'
+Flatiron fight is hosted on Heroku therefore you can access it directly from your browser
+- https://flatiron-fight.herokuapp.com
 
-Clone or fork the [back-end](https://github.com/mathewpwheatley/module-4-project-fantasy-rpg-backend), run the following commands in order: bundle install, rails db:migrate, rails db:seed, rails s -p 3001.
+If you want to install locally, follow the below steps:
+- Clone or fork the [front-end](https://github.com/sap2411/module-4-project-fantasy-rpg-frontend), and run 'npm i && npm audit fix' then 'yarn start'
+- Clone or fork the [back-end](https://github.com/mathewpwheatley/module-4-project-fantasy-rpg-backend), run the following commands in order: bundle install, rails db:migrate, rails db:seed, rails s -p 3001.
 
 ## Contributing
 
